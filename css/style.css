@@ -42,6 +42,10 @@ html {
   padding: 0 20px;
 }
 
+.col33 {
+  width: calc(100%/3);
+}
+
 
 /* HEADER */
 .page-header {
