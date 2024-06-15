@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap'); */
 
 * {
   margin: 0;
@@ -22,13 +22,15 @@ img {
 }
 
 html {
-  font-family: 'Source Sans 3', sans-serif;
+  /* font-family: 'Source Sans 3', sans-serif; */
+  font-family: Helvetica, sans-serif;
 }
 
 /* LAYOUT */
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 30px 0;
 }
 
 .row {
@@ -49,6 +51,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 17px 24px;
+  margin-bottom: 44px;
 }
 
 .logo {
@@ -70,4 +73,24 @@ html {
   display: flex;
   gap: 10px;
   flex-shrink: 0;
+}
+
+/* GALLERY */
+.container .row {
+  align-items: center;
+  justify-content: center;
+}
+
+.container .row:first-child {
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  font-weight: 600;
 }
