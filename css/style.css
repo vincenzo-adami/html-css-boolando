@@ -24,3 +24,50 @@ img {
 html {
   font-family: 'Source Sans 3', sans-serif;
 }
+
+/* LAYOUT */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row>* {
+  padding: 0 20px;
+}
+
+
+/* HEADER */
+.page-header {
+  background-color: #FF6900;
+  color: #E7E7E7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+}
+
+.logo {
+  height: 35px;
+  display: block;
+}
+
+.logo-wrapper {
+  flex-shrink: 0;
+}
+
+.category {
+  display: flex;
+  font-size: 18px;
+  gap: 11px;
+}
+
+.header-icon {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
